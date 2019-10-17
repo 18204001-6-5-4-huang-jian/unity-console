@@ -1,0 +1,101 @@
+/* 表格公共样式 */
+.el-table th{
+    background: #f7fafc !important;
+    height: 40px;
+    color: #444;
+    font-weight: 400;
+}
+.el-table th, .el-table td {
+    text-align: left !important;
+}
+
+/*分页样式*/
+.el-pagination {
+    text-align: right;
+    margin-right: 10px;
+}
+.el-input__icon {
+    line-height: 0;
+}
+/*表单el-form样式*/
+.blockTit .el-form-item__label,.blockTableTit .el-form-item__label{
+    display: block!important;
+    width: 100%;
+    text-align: left;
+}
+/*表单el-radio样式*/
+.blockTit .el-radio-group,.el-checkbox-group{
+    padding-left: 45px;
+}
+/*行内样式*/
+.inline{
+    display: inline-block;
+}
+/*.fl{*/
+    /*float: left;*/
+/*}*/
+
+/**/
+.cancer-title-blue {
+    color: #409EFF;
+    padding-left: 10px;
+    border-left: 2px solid #409EFF;
+    margin:0 0 20px 10px;
+}
+.el-badge__content.is-fixed {
+    z-index: 9;
+}
+.el-table th{
+    background: #eef1f6;
+    height: 40px;
+    color: #444;
+    font-weight: 400;
+}
+/*滚动条*/
+.scroll{scrollbar-face-color:#fff;scrollbar-shadow-color:#fff;scrollbar-highlight-color:#ccc;scrollbar-3dlight-color:#fff;scrollbar-arrow-color:#f00;scrollbar-track-color:#fff;}
+/*滚动条*/
+::-webkit-scrollbar{width:4px;height:10px;background-color: transparent;}
+::-webkit-scrollbar-track{background-color:#e9ebf2}
+::-webkit-scrollbar-thumb{background:#61aae6; border-radius:6px}
+
+/* 表单disabled样式 */
+.el-input.is-disabled .el-input__inner,.el-textarea.is-disabled .el-textarea__inner{
+    background: #ffffff !important;
+    color: #606266 !important;
+}
+.el-radio__input.is-disabled.is-checked+span.el-radio__label {
+    color: #409EFF !important;
+  }
+.el-radio__input.is-disabled.is-checked .el-radio__inner {
+    background-color: #409EFF !important;
+    border-color: #409EFF !important;
+  }
+.el-radio__input.is-disabled.is-checked .el-radio__inner::after {
+    background-color: #f5f7fa !important;
+  }
+.el-input.is-disabled .el-input__inner {
+    background-color: #fff !important;
+    border-color: #dcdfe6 !important;
+    color: #606266 !important;
+    cursor: not-allowed !important;
+  }
+.el-input.is-disabled.grayInput .el-input__inner{
+    background:#ededed !important;
+  }
+.el-textarea.is-disabled .el-textarea__inner {
+    background-color: #fff !important;
+    border-color: #dcdfe6 !important;
+    color: #606266 !important;
+    cursor: not-allowed !important;
+  }
+.el-checkbox__input.is-disabled.is-checked+span.el-checkbox__label {
+    color: #409EFF !important;
+    cursor: not-allowed !important;
+  }
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
+    background-color: #409EFF !important;
+    border-color: #409EFF !important;
+  }
+.el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
+    border-color: #fff !important;
+  }
