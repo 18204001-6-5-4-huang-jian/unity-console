@@ -39,7 +39,7 @@
     "css-loader": "0.28.4",
     "element-theme-chalk": "^2.0.11",
     "eventsource-polyfill": "0.9.6",
-    "express": "4.15.3",
+    "express": "4.17.3",
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "0.11.2",
     "friendly-errors-webpack-plugin": "1.6.1",
